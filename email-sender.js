@@ -6,8 +6,8 @@ const server = http.createServer((req, res) => {
       //Send confirmation email
       const output = `<h3>Welcome to NODE JS CHECKPOINT! this emai lis from Go My Code.</h3>`;
       const transporter = nodemailer.createTransport({
-        host: "smtp-mail.outlook.com",
-        port: 587,
+        host: "smtp.gmail.com",
+        port: 465,
         auth: {
           user: "service.gmc.blogs@outlook.com",
           pass: "ServiceGmcBlog@14789632",
